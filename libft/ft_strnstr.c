@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 15:12:40 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/09 17:41:13 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/13 10:16:50 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,8 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 }
 
 /* #include <bsd/string.h>
-original function compiles only on terminal with cc -lbsd ft_strnstr.c ft_strlen.c
+original function compiles only on terminal with 
+cc -lbsd ft_strnstr.c ft_strlen.c
 int	main(void)
 {
 	char	big[] = "Vanda Batista Oliveira";

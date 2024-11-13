@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 09:30:06 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/09 16:05:03 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/13 10:14:18 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,5 @@ char				*ft_strnstr(const char *haystack, const char *needle,
 						size_t len);
 int					ft_memcmp(const void *s1, const void *s2, size_t n);
 int					ft_atoi(const char *str);
+void				*ft_calloc(size_t nmemb, size_t size);
 #endif

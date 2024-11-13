@@ -6,14 +6,14 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 14:27:50 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/06 16:10:29 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/13 09:05:13 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 /*
-	A funcao memset preenche s com o valor especificado em c
-	para os primeiros n bytes.
+	strlcpy: string.h
+	strlcpy copies 'size' bytes - 1 from src, to dest and returns the size of src
 */
 void	*ft_memset(void *s, int c, size_t n)
 {

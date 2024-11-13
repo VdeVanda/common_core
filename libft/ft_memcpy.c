@@ -6,14 +6,15 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 09:22:59 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/09 12:45:02 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/13 09:06:03 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /* 
-memcpy copia 'n' bytes do 'src', para dentro do 'dest'
+memcpy: string.h
+copies 'n' bytes from 'src', into 'dest'
 */
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

@@ -6,14 +6,15 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 16:15:29 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/09 13:20:15 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/13 09:04:17 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-strlcpy copia 'size' bytes - 1 de src, para o dest e retorna o tamanho de src
+strlcpy: string.h 
+copies 'size' bytes - 1 from src, to dest and returns the size of src
 */
 size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {

@@ -6,16 +6,16 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 16:35:53 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/06 17:58:45 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/13 09:02:04 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-	A funcao toupper faz parte da biblioteca <ctype.h>
-	Converte um caractere em maiúsculo, se ele for minúscula.
-	Se c não for uma letra minúscula, retorna c sem alteração.
+toupper: <ctype.h>
+Converts a character to lowercase if it is uppercase.
+If c is not an uppercase letter, it returns c unchanged.
 */
 int	ft_toupper(int c)
 {

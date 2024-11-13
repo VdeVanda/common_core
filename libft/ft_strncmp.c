@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 11:34:39 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/09 13:20:39 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/13 12:33:27 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_strncmp(const char *str1, const char *str2, size_t n)
 	size_t	i;
 
 	i = 0;
-	if (n == 0)
+	if (n == 0 || !str1 || !str2)
 		return (0);
 	while ((str1[i] || str2[i]) && i < n)
 	{

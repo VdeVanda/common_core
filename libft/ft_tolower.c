@@ -6,16 +6,16 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/06 17:52:20 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/06 18:03:25 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/13 09:02:11 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-	A funcao tolower faz parte da biblioteca <ctype.h>
-	Converte um caractere em minúsculo, se ele for maiúsculo.
-	Se c não for uma letra maiúscula, retorna c sem alteração.
+	tolower: <ctype.h>
+	Converts a character to lowercase if it is uppercase.
+    If c is not an uppercase letter, it returns c unchanged.
 */
 int	ft_tolower(int c)
 {

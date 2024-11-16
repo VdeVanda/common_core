@@ -6,12 +6,16 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 14:56:35 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/06 09:32:23 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/16 11:18:15 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/*
+isascii: ctype.h
+isascci checks if a character is an ASCII character.
+*/
 int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)

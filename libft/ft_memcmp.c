@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 12:59:15 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/09 13:15:43 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/16 11:21:03 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,6 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	const char	s1[] = "hello";
 	const char	s2[] = "hell";
 
-	printf("my ft: %d\n", memcmp(s1, s2, 5));
+	printf("my ft: %d\n", ft_memcmp(s1, s2, 5));
 	printf("original: %d\n", memcmp(s1, s2, 5));
 } */

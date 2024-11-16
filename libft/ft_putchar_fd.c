@@ -1,33 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalnum.c                                       :+:      :+:    :+:   */
+/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/30 14:38:43 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/16 11:17:13 by vabatist         ###   ########.fr       */
+/*   Created: 2024/11/16 10:13:44 by vabatist          #+#    #+#             */
+/*   Updated: 2024/11/16 11:09:11 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 /*
-isalnum: ctype.h
-isalnum checks if a character is alphanumeric (letter or digit).
+putchar_fd is defined to write a given character (char c)
+to a specified file descriptor (int fd).
 */
-int	ft_isalnum(int c)
+void	ft_putchar_fd(char c, int fd)
 {
-	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0'
-			&& c <= '9'))
-		return (1);
-	return (0);
+	write(fd, &c, 1);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
+/* int	main(void)
 {
-	printf("%d\n", ft_isalnum('v'));
-	return (0);
+	int fd = open("V.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
+
+    ft_putchar_fd('v', fd);
+	close(fd);
 } */

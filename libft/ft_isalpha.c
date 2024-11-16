@@ -6,12 +6,16 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 12:23:00 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/06 09:32:27 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/16 11:17:41 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/*
+isalpha: ctype.h
+isalpha checks if a character is an alphabetic character (letter).
+*/
 int	ft_isalpha(int c)
 {
 	if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))

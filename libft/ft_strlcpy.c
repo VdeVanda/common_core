@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/30 16:15:29 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/13 09:04:17 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/16 11:30:54 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,6 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
     printf("source: %s\ndest: %s\n", src, dest);
     ft_strlcpy(dest, src, 6);
     //strlcpy(dest, src, 6);
-    printf("depois do strlcpy dest: %s %ld\n\n", dest, ft_strlcpy(dest,src, 6));
-    //printf("depois do strlcpy dest: %s %ld\n\n", dest, strlcpy(dest,src, 6));
+    printf("after strlcpy dest: %s %ld\n\n", dest, ft_strlcpy(dest,src, 6));
+    //printf("after strlcpy dest: %s %ld\n\n", dest, strlcpy(dest,src, 6));
 } */

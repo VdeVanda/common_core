@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 11:34:39 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/13 12:33:27 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/16 11:31:40 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,10 +37,10 @@ int	ft_strncmp(const char *str1, const char *str2, size_t n)
 /*
 int	main(void)
 {
-	printf("A minha ft: %d\n", ft_strncmp("vanda", "vandinha", 4));
+	printf("Mine: %d\n", ft_strncmp("vanda", "vandinha", 4));
 	printf("Original: %d\n", strncmp("vanda", "vandinha", 4));
-	printf("A minha ft: %d\n", ft_strncmp("vanda", "vandinha", 7));
+	printf("Mine: %d\n", ft_strncmp("vanda", "vandinha", 7));
 	printf("Original: %d\n", strncmp("vanda", "vandinha", 7));
-	printf("A minha ft: %d\n", ft_strncmp("vandinha", "van", 4));
+	printf("Mine: %d\n", ft_strncmp("vandinha", "van", 4));
 	printf("Original: %d\n", strncmp("vandinha", "van", 4));
 } */

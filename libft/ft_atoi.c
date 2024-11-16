@@ -6,12 +6,18 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 12:39:36 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/06 15:56:14 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/16 11:07:45 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/*
+atoi: stdlib.h
+atoi converts a string to an int.
+It skips leading whitespace, considers only one sign ('+' or '-'), 
+and converts the subsequent digits.
+*/
 int	ft_atoi(const char *str)
 {
 	int	i;
@@ -57,4 +63,4 @@ int	ft_atoi(const char *str)
 	printf("ft_atoi(\"%s\") = %d\n", test7, ft_atoi(test7));
 	printf("ft_atoi(\"%s\") = %d\n", test4, atoi(test4));
 	return (0);
-} */
+}  */

@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/20 14:32:28 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/20 15:54:16 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/20 20:17:11 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ Parameters:
 s1: The string to be trimmed.
 set: The reference set of characters to trim.
 */
-char *ft_strtrim(char const *s1, char const *set)
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	start;
 	size_t	end;
@@ -38,12 +38,12 @@ char *ft_strtrim(char const *s1, char const *set)
 	return (ft_substr(s1, start, end - start + 1));
 }
 
-int main(void)
+/* int main(void)
 {
-    char *s1 = "   hello, world!   ";
-    char *set = " ";
-    char *new_str = ft_strtrim(s1, set);
-    printf("new_str: %s\n", new_str);
-    free(new_str);
-    return (0);
-}
+	char *s1 = "   hello, world!   ";
+	char *set = " ";
+	char *new_str = ft_strtrim(s1, set);
+	printf("new_str: %s\n", new_str);
+	free(new_str);
+	return (0);
+} */

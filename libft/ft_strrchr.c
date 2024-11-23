@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 11:19:39 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/23 11:38:37 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/23 16:26:40 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,6 @@ char	*ft_strrchr(const char *s, int c)
 {
 	int	i;
 
-	if (s == NULL)
-		return (NULL);
 	i = ft_strlen(s);
 	while (i >= 0)
 	{
@@ -33,6 +31,19 @@ char	*ft_strrchr(const char *s, int c)
 		i--;
 	}
 	return (NULL);
+	/* char	*result;
+	result = NULL;
+	while (*s)
+	{
+		if (*s == (char)c)
+			result = (char *)s;
+		s++;
+	}
+	if (result != NULL)
+		return (result);
+	if ((char)c == '\0')
+		return ((char *)s);
+	return (NULL); */
 }
 
 /* int	main(void)

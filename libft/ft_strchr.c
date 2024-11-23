@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/09 10:27:06 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/20 15:03:10 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/23 09:49:47 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 strchr: string.h
 strchr is used to locate the first occurrence of a character in a string.
 Returns a pointer to that first occurrence of the character in the string.
-Therefore, it effectively returns one character and all characters 
+Therefore, it effectively returns one character and all characters
 following it in the string.
 Parameters:
 s: The string to be searched.
@@ -34,7 +34,7 @@ char	*ft_strchr(const char *s, int c)
 	else
 		return (NULL);
 }
-/* 
+/*
 int	main(void)
 {
 	const char	s[] = "hello, world!";

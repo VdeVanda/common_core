@@ -6,7 +6,7 @@
 /*   By: vabatist <vabatist@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 10:18:12 by vabatist          #+#    #+#             */
-/*   Updated: 2024/11/13 12:55:59 by vabatist         ###   ########.fr       */
+/*   Updated: 2024/11/23 16:36:01 by vabatist         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,7 @@ char	*ft_strdup(const char *s)
 	size_t	len;
 	char	*dup;
 
-	if (!s)
-		return (NULL);
+
 	len = ft_strlen(s);
 	dup = ft_calloc(len + 1, sizeof(char));
 	if (dup)
